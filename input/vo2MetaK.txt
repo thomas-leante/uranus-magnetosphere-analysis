@@ -1,0 +1,24 @@
+KPL/MK
+\\ Voyager 2 – Uranus Flyby Meta-Kernel
+\\ Contains:
+\\ - naif0012.tls: Latest leap seconds
+\\ - de440.bsp: JPL planetary ephemeris
+\\ - vgr2_ura182.bsp: Voyager 2 SPK at Uranus
+\\ - pck00011.tpc: Planetary orientation
+\\ - vg2_v02.tf: Voyager 2 frames
+
+\begindata
+
+PATH_VALUES = ('C:\Users\thoma\Project\Tirocinio-e-Tesi\Tirocinio\Code\input\kernel-spice')
+
+PATH_SYMBOLS = ('A')
+
+KERNELS_TO_LOAD = (
+   '$A/naif0012.tls',
+   '$A/de440.bsp',
+   '$A/vgr2.ura182.bsp',
+   '$A/pck00011.tpc',
+   '$A/vg2_v02.tf'
+)
+
+\begintext

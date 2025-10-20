@@ -1,0 +1,2 @@
+*.bsp filter=lfs diff=lfs merge=lfs -text
+input/kernel-spice/*.bsp filter=lfs diff=lfs merge=lfs -text
