@@ -1,0 +1,5 @@
+# Exclude Jupyter Notebook
+*.ipynb
+
+# Exclude Virtual Enviroment
+Ambiente_Virtuale/
